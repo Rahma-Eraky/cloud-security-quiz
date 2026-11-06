@@ -1,0 +1,1942 @@
+{
+  "lectures": [
+    {
+      "id": 1,
+      "title": "What is Cloud Computing?"
+    },
+    {
+      "id": 2,
+      "title": "Introduction to Cloud Security"
+    },
+    {
+      "id": 3,
+      "title": "Cloud Services"
+    },
+    {
+      "id": 4,
+      "title": "The Shared Responsibility Model"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "lecture": 1,
+      "question": "what is cloud computing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Software installed on one personal computer"
+        },
+        {
+          "letter": "B",
+          "text": "A single technology that replaces all hardware"
+        },
+        {
+          "letter": "C",
+          "text": "An on-demand delivery of IT resources such as servers and storage as services over the Internet"
+        },
+        {
+          "letter": "D",
+          "text": "A private network with no Internet access"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "lecture": 1,
+      "question": "Which organization published Special Publication 800-145, the widely accepted standard that defines cloud computing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The US National Institute of Standards and Technology (NIST)"
+        },
+        {
+          "letter": "B",
+          "text": "Amazon Web Services (AWS)"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Azure"
+        },
+        {
+          "letter": "D",
+          "text": "Google"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "lecture": 1,
+      "question": "Which set matches the NIST cloud model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Five characteristics, three deployment models, and four service models"
+        },
+        {
+          "letter": "B",
+          "text": "Three characteristics, five deployment models, and four service models"
+        },
+        {
+          "letter": "C",
+          "text": "Four characteristics, three deployment models, and five service models"
+        },
+        {
+          "letter": "D",
+          "text": "Five essential characteristics, four deployment models, and three service models"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "lecture": 1,
+      "question": "Which essential characteristic lets a user provision resources automatically without any human interaction with the provider?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Measured service"
+        },
+        {
+          "letter": "B",
+          "text": "Rapid elasticity"
+        },
+        {
+          "letter": "C",
+          "text": "On-demand self service"
+        },
+        {
+          "letter": "D",
+          "text": "Resource pooling"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "lecture": 1,
+      "question": "What does broad network access mean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only one type of client device is supported"
+        },
+        {
+          "letter": "B",
+          "text": "Resources can be accessed through different client platforms such as phones, tablets, and laptops"
+        },
+        {
+          "letter": "C",
+          "text": "Users must visit the provider's office to use resources"
+        },
+        {
+          "letter": "D",
+          "text": "Resources can only be reached from inside the data center"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "lecture": 1,
+      "question": "What does resource pooling allow a service provider to do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Charge every consumer the same fixed amount"
+        },
+        {
+          "letter": "B",
+          "text": "Hide the resources from the provider itself"
+        },
+        {
+          "letter": "C",
+          "text": "Dedicate a separate physical server to every consumer"
+        },
+        {
+          "letter": "D",
+          "text": "Serve multiple consumers from pools of resources such as servers and storage (multitenancy)"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "lecture": 1,
+      "question": "Which example illustrates rapid elasticity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paying a fixed fee regardless of use"
+        },
+        {
+          "letter": "B",
+          "text": "Adding virtual machines when demand grows and terminating them when demand drops"
+        },
+        {
+          "letter": "C",
+          "text": "Keeping the same number of machines at all times"
+        },
+        {
+          "letter": "D",
+          "text": "Buying new servers once every year"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "lecture": 1,
+      "question": "How is billing handled under the measured service characteristic?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is based on actual consumption, using a “pay as you go” model like electricity"
+        },
+        {
+          "letter": "B",
+          "text": "The provider bills without monitoring usage"
+        },
+        {
+          "letter": "C",
+          "text": "Customers pay in advance for hardware"
+        },
+        {
+          "letter": "D",
+          "text": "Customers pay one flat fee per year"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "lecture": 1,
+      "question": "What does a cloud deployment model define?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The type of service the provider offers"
+        },
+        {
+          "letter": "B",
+          "text": "The price of each cloud service"
+        },
+        {
+          "letter": "C",
+          "text": "The programming language used by developers"
+        },
+        {
+          "letter": "D",
+          "text": "Who the user of that cloud is and where the cloud infrastructure resides"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "lecture": 1,
+      "question": "Which statement describes a public cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A mix of public and private clouds"
+        },
+        {
+          "letter": "B",
+          "text": "Infrastructure shared only by organizations with shared concerns"
+        },
+        {
+          "letter": "C",
+          "text": "Infrastructure provisioned for the general public that exists on the premises of the CSP"
+        },
+        {
+          "letter": "D",
+          "text": "Infrastructure used exclusively by one organization"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "lecture": 1,
+      "question": "Which is a characteristic of a private cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is the most cost-effective model"
+        },
+        {
+          "letter": "B",
+          "text": "It is owned and operated by the CSP for the general public"
+        },
+        {
+          "letter": "C",
+          "text": "It requires no in-house IT skills"
+        },
+        {
+          "letter": "D",
+          "text": "Better control over data location and security, but limited scalability"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "lecture": 1,
+      "question": "What is a hybrid cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A cloud owned by several organizations with shared concerns"
+        },
+        {
+          "letter": "B",
+          "text": "A combination of public and private clouds bridged to enable data and application portability"
+        },
+        {
+          "letter": "C",
+          "text": "A cloud used by a single organization only"
+        },
+        {
+          "letter": "D",
+          "text": "A cloud that runs without any virtualization"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "lecture": 1,
+      "question": "What happens in cloud bursting when using a hybrid cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All private data is permanently moved to the public cloud"
+        },
+        {
+          "letter": "B",
+          "text": "Unused resources are deleted automatically"
+        },
+        {
+          "letter": "C",
+          "text": "When a spike in demand exceeds local resource limits, the public cloud manages the bursts"
+        },
+        {
+          "letter": "D",
+          "text": "Servers are shut down when demand drops"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "lecture": 1,
+      "question": "Which cloud model is provisioned for use by multiple organizations with shared concerns such as mission and compliance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Community cloud"
+        },
+        {
+          "letter": "B",
+          "text": "Hybrid cloud"
+        },
+        {
+          "letter": "C",
+          "text": "Private cloud"
+        },
+        {
+          "letter": "D",
+          "text": "Public cloud"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "lecture": 1,
+      "question": "Which statement about IaaS is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It requires the client to buy physical servers"
+        },
+        {
+          "letter": "B",
+          "text": "It is the base layer of the cloud stack and the foundation for both PaaS and SaaS"
+        },
+        {
+          "letter": "C",
+          "text": "It is the top layer built on SaaS"
+        },
+        {
+          "letter": "D",
+          "text": "It provides only prebuilt applications"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "lecture": 1,
+      "question": "What level of control do application developers have in PaaS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control of the operating system and servers only"
+        },
+        {
+          "letter": "B",
+          "text": "Full control of deployed applications and hosting settings, but not the underlying infrastructure"
+        },
+        {
+          "letter": "C",
+          "text": "No control over their own applications"
+        },
+        {
+          "letter": "D",
+          "text": "Full control of the networks, servers, and storage"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "lecture": 1,
+      "question": "Which statement describes SaaS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Applications are prebuilt and cloud-native, and the CSP handles patching and updates"
+        },
+        {
+          "letter": "B",
+          "text": "Users install and patch the software themselves"
+        },
+        {
+          "letter": "C",
+          "text": "Applications are heavily customized by each user"
+        },
+        {
+          "letter": "D",
+          "text": "Applications can only be accessed from one location"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "lecture": 1,
+      "question": "What is vendor lock-in?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Locking data in a vault with encryption keys"
+        },
+        {
+          "letter": "B",
+          "text": "Sharing resources between tenants"
+        },
+        {
+          "letter": "C",
+          "text": "The ability to switch providers at no cost"
+        },
+        {
+          "letter": "D",
+          "text": "Reliance on proprietary technology that restricts organizations from adopting alternatives"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "lecture": 1,
+      "question": "What is an Availability Zone in AWS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A software tool for load balancing"
+        },
+        {
+          "letter": "B",
+          "text": "A geographic area that contains many Regions"
+        },
+        {
+          "letter": "C",
+          "text": "A cluster of one or more discrete data centers"
+        },
+        {
+          "letter": "D",
+          "text": "A single server in a data center"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "lecture": 1,
+      "question": "What does CAPEX refer to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Costs associated with fixed assets, including their purchase, maintenance, and improvement"
+        },
+        {
+          "letter": "B",
+          "text": "The complete cost of a service throughout its lifetime"
+        },
+        {
+          "letter": "C",
+          "text": "Costs of the day-to-day running of a business"
+        },
+        {
+          "letter": "D",
+          "text": "The obstacles for a new company to enter a market"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "lecture": 2,
+      "question": "What is encryption?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blocking all traffic at the network perimeter"
+        },
+        {
+          "letter": "B",
+          "text": "Converting original data into a coded, unreadable form using mathematical algorithms and keys"
+        },
+        {
+          "letter": "C",
+          "text": "Storing sensitive data in a separate vault"
+        },
+        {
+          "letter": "D",
+          "text": "Granting users the minimum permissions needed"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "lecture": 2,
+      "question": "What common misconception do many companies have about adopting a public cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "That the CSP becomes responsible for the security of their applications and data"
+        },
+        {
+          "letter": "B",
+          "text": "That encryption is only needed on-premise"
+        },
+        {
+          "letter": "C",
+          "text": "That cloud services need an Internet connection"
+        },
+        {
+          "letter": "D",
+          "text": "That CSPs do not provide any security tools"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "lecture": 2,
+      "question": "What are the three components of the CIA triad?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Control, Identity, and Access"
+        },
+        {
+          "letter": "B",
+          "text": "Certification, Inspection, and Audit"
+        },
+        {
+          "letter": "C",
+          "text": "Confidentiality, Integrity, and Availability"
+        },
+        {
+          "letter": "D",
+          "text": "Cryptography, Isolation, and Authentication"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "lecture": 2,
+      "question": "How does symmetric encryption work?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No key is needed to decrypt the data"
+        },
+        {
+          "letter": "B",
+          "text": "A single secret key is used to both encrypt and decrypt the data"
+        },
+        {
+          "letter": "C",
+          "text": "Two mathematically related keys are used"
+        },
+        {
+          "letter": "D",
+          "text": "A public key encrypts and a private key signs"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "lecture": 2,
+      "question": "How does Bob send a message to Alice using asymmetric encryption?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "He encrypts it with Alice's private key"
+        },
+        {
+          "letter": "B",
+          "text": "He encrypts it with a shared secret key"
+        },
+        {
+          "letter": "C",
+          "text": "He encrypts it with his own private key"
+        },
+        {
+          "letter": "D",
+          "text": "He encrypts it with Alice's public key, and Alice decrypts it with her private key"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "lecture": 2,
+      "question": "What is a digital signature used for?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To hide the message from all readers"
+        },
+        {
+          "letter": "B",
+          "text": "To replace the receiver's private key"
+        },
+        {
+          "letter": "C",
+          "text": "To compress the message before sending"
+        },
+        {
+          "letter": "D",
+          "text": "To validate the authenticity and integrity of a message such as an email"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "lecture": 2,
+      "question": "Which statement about VPN tunnels is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They store sensitive data tokens in a vault"
+        },
+        {
+          "letter": "B",
+          "text": "They are built over IPSec and securely extend an on-premise environment into the cloud"
+        },
+        {
+          "letter": "C",
+          "text": "They are built over HTTPS and replace firewalls"
+        },
+        {
+          "letter": "D",
+          "text": "They are used only inside a single subnet"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "lecture": 2,
+      "question": "How does tokenization protect sensitive data in the public cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Random tokens replace the data and have no mathematical relationship to the original value"
+        },
+        {
+          "letter": "B",
+          "text": "The data is signed with the sender's private key"
+        },
+        {
+          "letter": "C",
+          "text": "The data is converted into ciphertext by a shared key"
+        },
+        {
+          "letter": "D",
+          "text": "The data is copied to every subnet in the VPC"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "lecture": 2,
+      "question": "What is a Virtual Private Cloud (VPC)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A physical data center owned by the customer"
+        },
+        {
+          "letter": "B",
+          "text": "A type of encryption algorithm"
+        },
+        {
+          "letter": "C",
+          "text": "A logically isolated virtual network provisioned in the public cloud"
+        },
+        {
+          "letter": "D",
+          "text": "A firewall that blocks DDoS attacks"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "lecture": 2,
+      "question": "What does a Web Application Firewall (WAF) do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Provides remote access to administrators"
+        },
+        {
+          "letter": "B",
+          "text": "Screens web application traffic and prevents exploits such as SQL injection"
+        },
+        {
+          "letter": "C",
+          "text": "Manages user permissions through groups"
+        },
+        {
+          "letter": "D",
+          "text": "Encrypts data stored in the token vault"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "lecture": 2,
+      "question": "How does an IPS differ from an IDS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An IPS can also block traffic, while an IDS only sends alerts and logs suspicious traffic"
+        },
+        {
+          "letter": "B",
+          "text": "They are identical in function"
+        },
+        {
+          "letter": "C",
+          "text": "An IPS only works on stored data"
+        },
+        {
+          "letter": "D",
+          "text": "An IDS can block traffic, while an IPS only logs it"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "lecture": 2,
+      "question": "Which security control manages traffic to and from individual virtual machines?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subnets"
+        },
+        {
+          "letter": "B",
+          "text": "Hash values"
+        },
+        {
+          "letter": "C",
+          "text": "Security Groups"
+        },
+        {
+          "letter": "D",
+          "text": "Network ACLs"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "lecture": 2,
+      "question": "In the two-tier web application example, which traffic does the web tier security group permit?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only MySQL traffic on port 3306"
+        },
+        {
+          "letter": "B",
+          "text": "Only HTTP (port 80) or HTTPS (port 443) traffic from any source"
+        },
+        {
+          "letter": "C",
+          "text": "All inbound traffic from any source"
+        },
+        {
+          "letter": "D",
+          "text": "Only SSH traffic from administrators"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "lecture": 2,
+      "question": "Which is an example of the “Something You Are” authentication factor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A password"
+        },
+        {
+          "letter": "B",
+          "text": "An ID card"
+        },
+        {
+          "letter": "C",
+          "text": "A PIN code"
+        },
+        {
+          "letter": "D",
+          "text": "A fingerprint or retina scan"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 35,
+      "lecture": 2,
+      "question": "In IAM, what does authorization do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encrypts the user's credentials"
+        },
+        {
+          "letter": "B",
+          "text": "Requires users to prove who they are"
+        },
+        {
+          "letter": "C",
+          "text": "Determines what resources authenticated users have access to"
+        },
+        {
+          "letter": "D",
+          "text": "Logs every user action"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "lecture": 2,
+      "question": "What does Single Sign-on (SSO) allow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Administrators to block all logins"
+        },
+        {
+          "letter": "B",
+          "text": "Users to share their passwords with others"
+        },
+        {
+          "letter": "C",
+          "text": "A user to hold two different accounts"
+        },
+        {
+          "letter": "D",
+          "text": "Users to access multiple applications through one authentication process"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 37,
+      "lecture": 2,
+      "question": "How do IAM roles differ from users in AWS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Roles can only be used by groups"
+        },
+        {
+          "letter": "B",
+          "text": "Roles hold long-standing credentials like users"
+        },
+        {
+          "letter": "C",
+          "text": "Roles are for a temporary purpose, whereas users are assigned long-standing credentials"
+        },
+        {
+          "letter": "D",
+          "text": "Roles are permanent accounts for people only"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "lecture": 2,
+      "question": "What does the Principle of Least Privilege state?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A user must be granted only the minimum permissions necessary to do their job"
+        },
+        {
+          "letter": "B",
+          "text": "Two people must perform every sensitive task"
+        },
+        {
+          "letter": "C",
+          "text": "Every user receives full administrator access"
+        },
+        {
+          "letter": "D",
+          "text": "All users are untrusted and continuously validated"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "lecture": 2,
+      "question": "What does the Zero Trust model do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Treats internal and external users as untrusted and continuously validates access"
+        },
+        {
+          "letter": "B",
+          "text": "Trusts all internal users by default"
+        },
+        {
+          "letter": "C",
+          "text": "Allows access with a single password"
+        },
+        {
+          "letter": "D",
+          "text": "Removes the need for authentication"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "lecture": 2,
+      "question": "How does penetration testing extend vulnerability scanning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It only discovers weaknesses without attacking"
+        },
+        {
+          "letter": "B",
+          "text": "It replaces the need for any security audits"
+        },
+        {
+          "letter": "C",
+          "text": "It only checks the strength of user passwords"
+        },
+        {
+          "letter": "D",
+          "text": "It attacks target systems as an outside attacker would and documents which attacks succeeded"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "lecture": 3,
+      "question": "How is cloud hosting described in the evolution of hosting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "One physical machine shared by hundreds of businesses"
+        },
+        {
+          "letter": "B",
+          "text": "One physical machine virtualized into sub-machines"
+        },
+        {
+          "letter": "C",
+          "text": "One physical machine dedicated to a single business"
+        },
+        {
+          "letter": "D",
+          "text": "Multiple physical machines that act as one system, abstracted into multiple cloud services"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 42,
+      "lecture": 3,
+      "question": "Which description fits a Cloud Service Provider (CSP)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A company offering services without any monitoring"
+        },
+        {
+          "letter": "B",
+          "text": "A company that provides only one cloud service"
+        },
+        {
+          "letter": "C",
+          "text": "A company providing many cloud services accessible via a single unified API with metered billing"
+        },
+        {
+          "letter": "D",
+          "text": "A company that sells only physical servers"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "lecture": 3,
+      "question": "What is a company called that offers multiple cloud services under a single UI but meets few CSP requirements?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Cloud Service Provider, such as AWS"
+        },
+        {
+          "letter": "B",
+          "text": "A dedicated server host"
+        },
+        {
+          "letter": "C",
+          "text": "A Cloud Platform, such as Twilio, HashiCorp, or Databricks"
+        },
+        {
+          "letter": "D",
+          "text": "A Virtual Private Server"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "lecture": 3,
+      "question": "What are the four core types of cloud services for IaaS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Storage, Email, Analytics, and Domains"
+        },
+        {
+          "letter": "B",
+          "text": "Compute, Networking, Storage, and Databases"
+        },
+        {
+          "letter": "C",
+          "text": "Networking, Backup, Testing, and Auditing"
+        },
+        {
+          "letter": "D",
+          "text": "Compute, Billing, Support, and Training"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "lecture": 3,
+      "question": "Which services is a global services?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amazon S3, CloudFront, Route53, and IAM"
+        },
+        {
+          "letter": "B",
+          "text": "SQS, SES, and RDS"
+        },
+        {
+          "letter": "C",
+          "text": "Only Amazon EC2"
+        },
+        {
+          "letter": "D",
+          "text": "EC2, VPC, and CloudShell"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "lecture": 3,
+      "question": "How are datacenters within an AWS Region arranged?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are far apart, so latency is high"
+        },
+        {
+          "letter": "B",
+          "text": "They are in the same building to cut costs"
+        },
+        {
+          "letter": "C",
+          "text": "They are in different buildings but close enough to provide low latency (under 10 ms)"
+        },
+        {
+          "letter": "D",
+          "text": "They are in different countries to improve speed"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "lecture": 3,
+      "question": "How does an Elastic Load Balancer help provide high availability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It upgrades every server to a larger size"
+        },
+        {
+          "letter": "B",
+          "text": "It evenly distributes traffic and routes it only to datacenters with healthy servers"
+        },
+        {
+          "letter": "C",
+          "text": "It stores backups of all data"
+        },
+        {
+          "letter": "D",
+          "text": "It encrypts all traffic between AZs"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "lecture": 3,
+      "question": "Which action describes horizontal scaling (scaling out)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reducing the server's memory"
+        },
+        {
+          "letter": "B",
+          "text": "Adding more servers of the same size"
+        },
+        {
+          "letter": "C",
+          "text": "Upgrading to a bigger server"
+        },
+        {
+          "letter": "D",
+          "text": "Removing all servers"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "lecture": 3,
+      "question": "What does an AWS Auto Scaling Group (ASG) do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Creates ARNs for resources"
+        },
+        {
+          "letter": "B",
+          "text": "Encrypts access keys"
+        },
+        {
+          "letter": "C",
+          "text": "Manually upgrades servers to bigger sizes"
+        },
+        {
+          "letter": "D",
+          "text": "Automatically adds or removes servers based on scaling rules you define from metrics"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "lecture": 3,
+      "question": "What is a business continuity plan (BCP)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A script that creates cloud infrastructure"
+        },
+        {
+          "letter": "B",
+          "text": "A document that outlines how a business continues operating during an unplanned disruption"
+        },
+        {
+          "letter": "C",
+          "text": "A report of monthly cloud billing"
+        },
+        {
+          "letter": "D",
+          "text": "A list of all AWS Regions"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "lecture": 3,
+      "question": "What does the Recovery Point Objective (RPO) represent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The number of servers used for backup"
+        },
+        {
+          "letter": "B",
+          "text": "The cost of restoring services"
+        },
+        {
+          "letter": "C",
+          "text": "The maximum acceptable amount of data loss after an incident, expressed as time"
+        },
+        {
+          "letter": "D",
+          "text": "The maximum downtime a business can tolerate"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "lecture": 3,
+      "question": "What does the Recovery Time Objective (RTO) represent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The maximum acceptable amount of data loss"
+        },
+        {
+          "letter": "B",
+          "text": "The time between two backups"
+        },
+        {
+          "letter": "C",
+          "text": "The time needed to launch a new Region"
+        },
+        {
+          "letter": "D",
+          "text": "The maximum amount of downtime a business can tolerate without a significant financial loss"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "lecture": 3,
+      "question": "What happens in the Backup & Restore disaster recovery option?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A scaled-up copy of the infrastructure runs in another region"
+        },
+        {
+          "letter": "B",
+          "text": "Data is replicated to another region with minimal services"
+        },
+        {
+          "letter": "C",
+          "text": "Traffic moves automatically with zero downtime"
+        },
+        {
+          "letter": "D",
+          "text": "You back up your data and restore it to new infrastructure after the event"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 54,
+      "lecture": 3,
+      "question": "What is an API, and what is its most common type?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Software that lets two applications talk to each other, most commonly via HTTP/S requests"
+        },
+        {
+          "letter": "B",
+          "text": "Hardware that connects two data centers"
+        },
+        {
+          "letter": "C",
+          "text": "A tool for writing Infrastructure as Code"
+        },
+        {
+          "letter": "D",
+          "text": "A browser-based shell"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "lecture": 3,
+      "question": "Which are ways to interact with the AWS API without sending HTTP requests directly?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ARNs, Regions, and access keys"
+        },
+        {
+          "letter": "B",
+          "text": "Only the AWS Management Console"
+        },
+        {
+          "letter": "C",
+          "text": "AWS Management Console, AWS SDK, and AWS CLI"
+        },
+        {
+          "letter": "D",
+          "text": "AWS CloudTrail, S3, and EC2"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "lecture": 3,
+      "question": "What does the AWS Management Console let users do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Point and click to manually launch and configure AWS resources with limited programming knowledge"
+        },
+        {
+          "letter": "B",
+          "text": "Run scripts without using any browser"
+        },
+        {
+          "letter": "C",
+          "text": "Access resources only through terminal commands"
+        },
+        {
+          "letter": "D",
+          "text": "Write Infrastructure as Code only in Python"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "lecture": 3,
+      "question": "What do Amazon Resource Names (ARNs) do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They encrypt traffic between AZs"
+        },
+        {
+          "letter": "B",
+          "text": "They uniquely identify AWS resources across all of AWS"
+        },
+        {
+          "letter": "C",
+          "text": "They store a user's secret access key"
+        },
+        {
+          "letter": "D",
+          "text": "They list the available Regions"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "lecture": 3,
+      "question": "What is true about the AWS CLI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a web-based point-and-click interface"
+        },
+        {
+          "letter": "B",
+          "text": "It is available only on Windows"
+        },
+        {
+          "letter": "C",
+          "text": "It is a plugin for VS Code"
+        },
+        {
+          "letter": "D",
+          "text": "It is a Python executable program named aws, and Python is required to install it"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "lecture": 3,
+      "question": "Which statement about CloudFormation and CDK is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CloudFormation is a declarative IaC tool, while CDK is an imperative IaC tool"
+        },
+        {
+          "letter": "B",
+          "text": "CDK is declarative, while CloudFormation is imperative"
+        },
+        {
+          "letter": "C",
+          "text": "Both are imperative tools written only in YAML"
+        },
+        {
+          "letter": "D",
+          "text": "Neither can automate infrastructure"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "lecture": 3,
+      "question": "Which statement about AWS CloudShell is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a free, browser-based shell built into the AWS Management Console"
+        },
+        {
+          "letter": "B",
+          "text": "It is a paid desktop application"
+        },
+        {
+          "letter": "C",
+          "text": "It cannot run the AWS CLI"
+        },
+        {
+          "letter": "D",
+          "text": "It provides unlimited free storage per Region"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "lecture": 4,
+      "question": "What is the Shared Responsibility Model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A formal contract that defines where AWS responsibilities end and the customer's begin"
+        },
+        {
+          "letter": "B",
+          "text": "A list of AWS Regions and zones"
+        },
+        {
+          "letter": "C",
+          "text": "A tool for monitoring monthly billing"
+        },
+        {
+          "letter": "D",
+          "text": "A pricing plan for AWS services"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "lecture": 4,
+      "question": "What is AWS responsible for under the Shared Responsibility Model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deciding which users can access customer data"
+        },
+        {
+          "letter": "B",
+          "text": "Protecting the “Cloud” itself, including the global infrastructure"
+        },
+        {
+          "letter": "C",
+          "text": "Protecting the assets the customer creates in the account"
+        },
+        {
+          "letter": "D",
+          "text": "Writing secure code for customer applications"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "lecture": 4,
+      "question": "Why can customers not manage the physical security of AWS data centers?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Because the locks are managed by the customer's administrators"
+        },
+        {
+          "letter": "B",
+          "text": "Because customers only use mobile devices"
+        },
+        {
+          "letter": "C",
+          "text": "Because data centers are located in the customer's office"
+        },
+        {
+          "letter": "D",
+          "text": "They have no physical access, so they cannot enter, install cameras, or manage locks"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 64,
+      "lecture": 4,
+      "question": "What is the customer responsible for protecting “IN the Cloud”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The cameras inside AWS buildings"
+        },
+        {
+          "letter": "B",
+          "text": "The physical locks of the data centers"
+        },
+        {
+          "letter": "C",
+          "text": "The global infrastructure of AWS"
+        },
+        {
+          "letter": "D",
+          "text": "The assets they create and the configurations they implement within their AWS account"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 65,
+      "lecture": 4,
+      "question": "Which two things must the customer define under Identity and Access Management?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neither, because AWS defines both"
+        },
+        {
+          "letter": "B",
+          "text": "Authentication (who has an account) and authorization (what they can do)"
+        },
+        {
+          "letter": "C",
+          "text": "Only authentication, since AWS handles authorization"
+        },
+        {
+          "letter": "D",
+          "text": "Only authorization, since AWS handles authentication"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "lecture": 4,
+      "question": "Who must enable encryption for S3 buckets and RDS instances?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No one, because it is always on"
+        },
+        {
+          "letter": "B",
+          "text": "AWS, after scanning the customer's data"
+        },
+        {
+          "letter": "C",
+          "text": "AWS, which enables it for every customer"
+        },
+        {
+          "letter": "D",
+          "text": "The customer, who must choose to enable it and decide which data requires protection"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 67,
+      "lecture": 4,
+      "question": "For AWS Key Management Service (KMS), what is the customer responsible for?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Providing the KMS service itself"
+        },
+        {
+          "letter": "B",
+          "text": "Only deleting old keys"
+        },
+        {
+          "letter": "C",
+          "text": "Deciding which keys to use, who can use a key, and who can create or delete keys"
+        },
+        {
+          "letter": "D",
+          "text": "Maintaining the physical hardware"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "lecture": 4,
+      "question": "What is the customer responsible for configuring when building a VPC?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only the physical cabling of the data center"
+        },
+        {
+          "letter": "B",
+          "text": "Subnets, route tables, internet gateways, security groups, and network ACLs"
+        },
+        {
+          "letter": "C",
+          "text": "Only the global infrastructure"
+        },
+        {
+          "letter": "D",
+          "text": "Only the AWS Regions"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "lecture": 4,
+      "question": "Who is responsible for VPN or Direct Connect configurations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AWS, as part of physical security"
+        },
+        {
+          "letter": "B",
+          "text": "The customer, as part of network and firewall configuration"
+        },
+        {
+          "letter": "C",
+          "text": "No one, since they are automatic"
+        },
+        {
+          "letter": "D",
+          "text": "AWS, as part of the global infrastructure"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "lecture": 4,
+      "question": "What is a “patch”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A security update that closes vulnerabilities"
+        },
+        {
+          "letter": "B",
+          "text": "A key for encrypting S3 buckets"
+        },
+        {
+          "letter": "C",
+          "text": "A type of virtual firewall"
+        },
+        {
+          "letter": "D",
+          "text": "A new AWS Region"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "lecture": 4,
+      "question": "Why is the customer responsible for patching the Guest OS on EC2 instances?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Because EC2 has no operating system"
+        },
+        {
+          "letter": "B",
+          "text": "Because AWS refuses to patch Linux"
+        },
+        {
+          "letter": "C",
+          "text": "They have administrative access, and AWS cannot access the instance to update its software"
+        },
+        {
+          "letter": "D",
+          "text": "Because AWS only patches applications"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 72,
+      "lecture": 4,
+      "question": "If application code has flaws such as SQL Injection or XSS, who must fix them?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The customer, who must write secure code and remediate application-level flaws"
+        },
+        {
+          "letter": "B",
+          "text": "AWS, as part of protecting the cloud"
+        },
+        {
+          "letter": "C",
+          "text": "AWS, through automatic patching of all code"
+        },
+        {
+          "letter": "D",
+          "text": "No one, since these flaws cannot be fixed"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "lecture": 4,
+      "question": "What is an identity in AWS?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A type of encryption key"
+        },
+        {
+          "letter": "B",
+          "text": "A physical badge for entering a data center"
+        },
+        {
+          "letter": "C",
+          "text": "Any entity that can prove who it is to AWS to make an API request"
+        },
+        {
+          "letter": "D",
+          "text": "A subnet inside a VPC"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "lecture": 4,
+      "question": "According to AWS, who is responsible for identity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AWS and the Regions"
+        },
+        {
+          "letter": "B",
+          "text": "AWS, because it creates all accounts"
+        },
+        {
+          "letter": "C",
+          "text": "AWS, because it owns the data centers"
+        },
+        {
+          "letter": "D",
+          "text": "The customer, because “Identity is entirely yours”"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "lecture": 4,
+      "question": "Which of the following is listed among AWS identities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AWS data center locks"
+        },
+        {
+          "letter": "B",
+          "text": "The global infrastructure"
+        },
+        {
+          "letter": "C",
+          "text": "Public S3 buckets"
+        },
+        {
+          "letter": "D",
+          "text": "Applications using Access Keys"
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "id": 76,
+      "lecture": 4,
+      "question": "Which of the following does AWS not know about your business?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Which Regions it operates in"
+        },
+        {
+          "letter": "B",
+          "text": "Where its own data centers are located"
+        },
+        {
+          "letter": "C",
+          "text": "Who your employees are and who should be an Admin or Read-Only"
+        },
+        {
+          "letter": "D",
+          "text": "How its global infrastructure works"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "lecture": 4,
+      "question": "In an over-permissive policy, who provides the “Effect” and who provides the “Action” and “Resource”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AWS provides the “Effect,” but the customer provides the “Action” and “Resource”"
+        },
+        {
+          "letter": "B",
+          "text": "AWS provides all three parts"
+        },
+        {
+          "letter": "C",
+          "text": "AWS provides the “Action” and “Resource”"
+        },
+        {
+          "letter": "D",
+          "text": "The customer provides only the “Effect”"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "lecture": 4,
+      "question": "What is recommend using instead of permanent Access Keys?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IAM Roles and Temporary Credentials (STS)"
+        },
+        {
+          "letter": "B",
+          "text": "Hardcoded keys in code"
+        },
+        {
+          "letter": "C",
+          "text": "Public S3 buckets"
+        },
+        {
+          "letter": "D",
+          "text": "A shared root user password"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "lecture": 4,
+      "question": "How do leaked Access Keys commonly happen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AWS rotates the keys every hour"
+        },
+        {
+          "letter": "B",
+          "text": "Hardcoding keys in code and uploading the code to public repositories like GitHub"
+        },
+        {
+          "letter": "C",
+          "text": "AWS publishes the keys by mistake"
+        },
+        {
+          "letter": "D",
+          "text": "The keys are encrypted in KMS"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 80,
+      "lecture": 4,
+      "question": "What caused real-world breaches involving public S3 buckets?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A hack of the S3 service itself"
+        },
+        {
+          "letter": "B",
+          "text": "A failure of AWS physical security"
+        },
+        {
+          "letter": "C",
+          "text": "A customer configuration failure; the S3 service itself was not hacked"
+        },
+        {
+          "letter": "D",
+          "text": "A flaw in the AWS global infrastructure"
+        }
+      ],
+      "answer": "C"
+    }
+  ]
+}
